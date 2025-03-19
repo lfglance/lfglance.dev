@@ -1,0 +1,1 @@
+these are the terraform files i used... i omitted the state file config, use what you think is best.
