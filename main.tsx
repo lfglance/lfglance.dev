@@ -9,16 +9,16 @@ const port = import.meta.env.PORT || 3000;
 const style = `
 @keyframes tiltZoom {
   0% {
-    transform: perspective(1200px) rotateX(0deg) rotateY(0deg);
-  }
-  50% {
-    transform: perspective(1200px) rotateX(-12deg) rotateY(-12deg);
+    transform: perspective(1200px) rotateX(-35deg) rotateY(-35deg);
   }
   100% {
     transform: perspective(1200px) rotateX(0deg) rotateY(0deg);
   }
 }
-body { animation: tiltZoom 1.5s ease-in-out; overflow: hidden; }
+body {
+  animation: tiltZoom 1s linear;
+  overflow: hidden;
+}
 `
 
 const homePage = (
